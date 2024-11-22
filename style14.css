@@ -1,0 +1,107 @@
+@charset "utf-8";
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin: 0;
+	padding: 0;
+	
+	height: 140vh;
+	justify-content: center;
+ background-image: url("https://torinoclothing.com/wp-content/uploads/2021/10/20-sale-off-red-and-white-sign-discount-sale-banner-at-cloth-bar-store--1024x683.jpg");
+	
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   height: 75px;
+
+
+}
+nav{
+	width: 85%;
+		margin: auto;
+	padding: 35px 0;
+	display: flex;justify-content: space-between;
+    
+		
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	
+	
+}
+nav ul li a::after{
+	content: '';
+	height: 1px;
+	width: 0;
+	background: rgb(227, 203, 203);
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+	
+}
+nav ul li a:hover::after{
+	width: 100%;
+	
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  margin-right: 10px;
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 5px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+}
+
+.cart-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color:rgb(177, 175, 175);
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+    
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+

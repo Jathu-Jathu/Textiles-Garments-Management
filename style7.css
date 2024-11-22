@@ -1,0 +1,125 @@
+@charset "utf-8";
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	 background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20240410/pngtree-fashion-clothing-on-hangers-at-the-show-image_15653991.jpg");
+	
+}
+ header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   height: 85px;
+
+
+}
+nav{
+	width: 85%;
+		margin: auto;
+	padding: 15px 0;
+	display: flex;justify-content: space-between;
+    
+		
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: rgb(239, 235, 235);
+	text-transform: uppercase;
+	
+	
+}
+nav ul li a::after{
+	content: '';
+	height: 1px;
+	width: 0;
+	background:rgb(194, 194, 255);
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+	
+}
+nav ul li a:hover::after{
+	width: 100%;
+	
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  margin-right: 10px;
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 5px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+}
+
+.cart-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:rgb(177, 175, 175);
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+  text-decoration: none;
+}
+.footer-menu a:hover, .social i:hover{
+  color: #037fec;
+}
+footer {
+    background-color: #393838;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

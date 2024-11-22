@@ -1,0 +1,59 @@
+@charset "utf-8";
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin: 0;
+	padding: 0;
+	
+	height: 100vh;
+	justify-content: center;
+	background-image: url("../../Downloads/WhatsApp Image 2023-05-25 at 20.30.29 (1).jpeg");
+	
+}
+
+
+
+
+
+
+
+.navbar{
+	width: 85%;
+		margin: auto;
+	padding: 35px 0;
+	display: flex;justify-content: space-between;
+		
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	
+	
+}
+.navbar ul li a::after{
+	content: '';
+	height: 1px;
+	width: 0;
+	background: #EDCD0E;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+	
+}
+.navbar ul li a:hover::after{
+	width: 100%;
+	
+}
+
+
+
+
+

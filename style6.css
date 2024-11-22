@@ -1,0 +1,189 @@
+@charset "utf-8";
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin: 0;
+	padding: 0;
+	
+	height: 120vh;
+	justify-content: center;
+	background-image:url("https://static.vecteezy.com/system/resources/previews/021/334/113/non_2x/pastel-blue-wavy-line-bubble-and-circle-elements-on-white-background-minimal-simple-and-clean-concept-used-for-background-backdrop-banner-wallpaper-copy-space-or-landing-page-vector.jpg");
+	
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   height: 75px;
+
+
+}
+nav{
+	width: 95%;
+		margin: auto;
+	padding: 10px 0;
+	display: flex;justify-content: space-between;
+    
+		
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: rgb(6, 116, 144);
+	text-transform: uppercase;
+	
+	
+}
+nav ul li a::after{
+	content: '';
+	height: 1px;
+	width: 0;
+	background: black;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+	
+}
+nav ul li a:hover::after{
+	width: 100%;
+	
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  margin-right: 10px;
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 5px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+}
+
+.cart-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 250px;
+	max-height: 600px;
+    margin: 0 auto;
+    padding: 80px;
+    border: 5px rgba(72,72,72,1.00);
+    border-radius: 25px;
+	background-color: #CCCCCC;
+	align-items: center;
+	color: black;
+	
+}
+
+
+.container h3 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+	color: rgb(42, 105, 168);
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.container label{
+	 display: block;
+    margin-bottom: 15px;
+	color: rgb(8, 8, 8);
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+
+}
+.container input {
+    display: block;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 25px;
+	color: black;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.container input[type="submit"] {
+    
+    width: 100%;
+    height: 35px;
+    background-color: #3B3B3B;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+	
+   
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: rgb(20, 83, 134);
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+		font-weight: 700px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+	width: 210px;
+	text-align: center;
+	height: 18px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    
+}
+.btn:hover {
+    background-color: rgb(63, 41, 144);
+}
+
+
+.container input[type="submit"]:hover {
+    background-color: rgb(15, 15, 25);
+}
+
+.container #message {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container h2{
+	align-content: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: black;
+	font-size: 12px;
+	
+}
+
+
+
+

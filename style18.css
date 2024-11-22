@@ -1,0 +1,154 @@
+@charset "utf-8";
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin: 0;
+	padding: 0;
+	
+	height: 120vh;
+	justify-content: center;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210403/pngtree-simple-white-flat-vectors-with-diagonal-cuts-decorative-backdrops-for-your-image_597614.jpg");
+	
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   height: 75px;
+
+
+}
+nav{
+	width: 85%;
+		margin: auto;
+	padding: 10px 0;
+	display: flex;justify-content: space-between;
+    
+		
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:rgb(33, 33, 105);
+	text-transform: uppercase;
+	
+	
+}
+nav ul li a::after{
+	content: '';
+	height: 1px;
+	width: 0;
+	background: black;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+	
+}
+nav ul li a:hover::after{
+	width: 100%;
+	
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  margin-right: 10px;
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 5px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+}
+
+.cart-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+h1{
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size:34px;
+	color:rgb(33, 33, 105);
+	align-content: center;
+}
+
+input[type=text] ,input[type=password]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+	background-color:white;
+}
+
+
+input[type=submit]  {
+    background-color:rgb(39, 10, 134);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+
+
+
+input[type=submit]:hover {
+    background-color:black;
+}
+select
+{
+	   width:100%;
+	   padding:8px;
+	   font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	   font-size:16px;
+	   background-color:#E0BFBF;  
+}
+
+table {
+ display: table;
+  border-collapse: separate;
+  border-spacing: 10px;
+	 border-radius: 10px;
+  border-color: gray;
+	background-color: rgb(121, 132, 163);
+	width: 500px;
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
