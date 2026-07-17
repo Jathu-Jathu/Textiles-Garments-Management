@@ -10,7 +10,7 @@ A web-based Textiles and Garment Management System built with PHP, MySQL, HTML, 
 - 🐘 PHP
 - 🗄️ MySQL
 
-## ✨ Features
+##  Features
 
 - 🔐 Secure user authentication
 - 👤 Admin dashboard
@@ -21,8 +21,8 @@ A web-based Textiles and Garment Management System built with PHP, MySQL, HTML, 
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
+###  Home Page
 ![Home Page](home-page.png)
 
-### 👕 Products Page
+###  Products Page
 ![Products Page](products-page.png)
